@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           gamesense (wip)
 @namespace      github.com/abbie
-@version        0.0.2
+@version        0.0.3
 @description    gamesense forum theme
 @author         abbie
 ==/UserStyle== */
 
-@-moz-document domain("gamesense.pub") {
+@-moz-document regexp("^https?://gamesense\\.pub/forums(?!/profile).*") {
 .pun abbr,.pun blockquote,.pun cite,.pun dd,.pun div,.pun dl,.pun dt,.pun fieldset,.pun form,.pun h1,.pun h2,.pun h3,.pun h4,.pun h5,.pun img,.pun li,.pun ol,.pun p,.pun pre,.pun table,.pun td,.pun th,.pun ul {
     margin: 0;
     padding: 0;
@@ -1341,15 +1341,6 @@ body {
 
 .pun a:hover.usergroup-7 {
     color: #98fdc8!important
-}
-
-.pun .usergroup-8 {
-    color: #fc0!important;
-    font-weight: 700
-}
-
-.pun a:hover.usergroup-8 {
-    color: #ffe478!important
 }
 
 .pun .notice-bar {
