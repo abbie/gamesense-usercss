@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           gamesense (wip)
 @namespace      github.com/abbie
-@version        0.0.1
+@version        0.0.2
 @description    gamesense forum theme
 @author         abbie
 ==/UserStyle== */
@@ -13,6 +13,11 @@
     border: 0;
 }
 
+.pun .postmsg ul.likelist {
+    list-style: none;
+    padding: 6px 0 6px 0;
+}
+  
 div#brdmain {
     margin-top: 115px;
 }
